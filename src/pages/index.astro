@@ -2,11 +2,15 @@
 import Layout from "../layouts/default.astro";
 import { Display } from "../components/display";
 import { Increment } from "../components/increment";
+import Decrement from "../components/decrement.vue";
 ---
 
 <Layout>
 	<div class="flex items-center justify-center m-auto flex-col">
 		<div class="flex p-2"><Display client:only="react" /></div>
-		<div class="flex flex-row p-2"><Increment client:only="solid-js" /></div>
+		<div class="flex flex-row p-2 m-2">
+			<div class="p-2 m-2"><Increment client:only="solid-js" /></div>
+			<div class="p-2 m-2"><Decrement client:only="vue" /></div>
+		</div>
 	</div>
 </Layout>
