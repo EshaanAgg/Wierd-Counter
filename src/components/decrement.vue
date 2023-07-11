@@ -3,7 +3,8 @@
 		<div class="bg-white/70 flex flex-col p-3 aspect-square backdrop-blur-md rounded-xl w-36 align-middle border-4">
 			<div class="flex">
 			    <p class="font-semibold flex-1 text-lg text-black/70">Vue</p>
-					<div>
+                    <!-- Vue Logo -->
+					<div>   
 						<svg
                             width="28"
                             height="28"
@@ -33,6 +34,7 @@
 					<button
 						@click="decrement"
 						class="text-black/80 hover:bg-black/5 w-20 h-20 flex justify-center items-center rounded-md">
+                        <!-- Minus in a Circle SVG -->
                         <svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"
